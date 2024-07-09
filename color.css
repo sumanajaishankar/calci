@@ -1,0 +1,47 @@
+body{
+    background:pink;
+    display:flex;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+   
+}
+
+.calci{
+    text-align:center;
+}
+
+.design{
+    position:relative;
+    width:400px;
+    background:white;
+    border-radius:12px;
+    padding:12px;  
+}
+
+.inp{
+    height:60px;
+    width:98%;
+    margin-bottom:20px;
+    font-size:20px;
+    text-align:right;
+    border-color:black;
+}
+
+.container{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.container button{
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.operator{
+    color:#2f9fff;
+}
+
